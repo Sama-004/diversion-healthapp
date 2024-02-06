@@ -35,7 +35,7 @@ const LandingPage = () => {
           <button
             type="button"
             onClick={() => {
-              navigateTo("/bmi");
+              navigateTo("/bmi-home");
             }}
             className="btn btn-primary btn-lg px-4 me-md-2"
           >
@@ -45,7 +45,7 @@ const LandingPage = () => {
             type="button"
             className="btn btn-outline-secondary btn-lg px-4"
             onClick={() => {
-              navigateTo("/quiz");
+              navigateTo("/quiz-home");
             }}
           >
             Take Mental Health Quiz
